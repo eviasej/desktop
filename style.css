@@ -1,0 +1,116 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+       color: #626262;
+
+}
+
+header{
+    padding-top: 71px ;
+    padding-bottom: 92px;
+    margin-top: 100px;
+}
+
+.container
+{
+    width: 905px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    font-family: 'Playfair Display', serif;
+        font-style: normal;
+}
+
+.link-nav{
+    text-decoration: none;
+        color: #7D7D7D;
+        justify-content: center;
+}
+
+.style-images{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color:  #B4AD9E;
+}
+
+.description,
+.button{
+        font-size: 14px;
+        line-height: 19px;
+}
+
+.list-nav{
+    display: flex;
+    
+}
+
+.link-nav:hover,
+.link-nav:focus{
+    color: #03A9F4;;
+}
+
+.item-nav:not(:first-child){
+    margin: 100px;
+    text-decoration: none;
+    color: var(-link-color);
+}
+
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-item{
+    width: 420px;
+}
+
+#first{
+    margin-top: 99px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.odd{
+    margin-right: 65px;
+}
+
+.button{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    border-style: none;
+    padding: 0;
+    background-color: #fff;
+  }
+
+.container-1{
+   
+    width: 165px;
+    align-items: center;
+
+    border: 1px solid #626262;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
